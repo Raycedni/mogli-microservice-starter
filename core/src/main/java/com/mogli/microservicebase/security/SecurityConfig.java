@@ -20,7 +20,7 @@ import java.util.Arrays;
 @RequiredArgsConstructor
 @Configuration
 @EnableWebSecurity
-class SecurityConfig {
+public class SecurityConfig {
 
     private final KeycloakLogoutHandler keycloakLogoutHandler;
 
